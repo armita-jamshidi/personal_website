@@ -170,6 +170,20 @@ h2 {
   max-width: 62ch;
 }
 
+.hero-photo {
+  margin: 1rem 0 0;
+  max-width: 360px;
+}
+
+.hero-photo img,
+.bottom-photo img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
@@ -297,6 +311,12 @@ ul {
 
 .contact-card a {
   color: #cae6ff;
+}
+
+.bottom-photo {
+  margin: 0;
+  overflow: hidden;
+  border-radius: 18px;
 }
 
 footer {
